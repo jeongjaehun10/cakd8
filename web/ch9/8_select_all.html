@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document Object Model</title>
+    <script>
+        window.onload= function(){
+            // 문서 객체 선택 
+            var headers = document.querySelectorAll('h1'); // 선택자가 여러개이면 가장 먼저 나오는 것을 선택
+            //문서 객체 조작
+
+            for (var i = 0; i<headers.length; i++) {
+                var header = headers[i];
+                header.style.color = 'orange';
+                header.style.background = 'red';
+                header.innerHTML = 'from JavaScript';
+            }
+        };
+
+    </script>
+</head>
+<body>
+    <h1>Header</h1>
+    <h1>Header</h1>
+    <h1>Header</h1>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        function callTenTimes(callback) {
+            for (var i =0; i <3 ; i++) {
+                callback();
+            }
+        }
+        
+        var callback = function () {
+            alert('함수 호출');
+        };
+
+        callTenTimes(callback); // callback이 세번 된다.
+
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

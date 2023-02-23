@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--jq 함스를 이용해 스타릴 속성 지정-->
+<html lang="en">
+<head>
+    <title>Document Object Model</title>
+    <script>
+        window.onload= function(){
+            var output ='';
+            for (var i=0; i <256; i++) {
+                output += '<div></div>'; // 255개의 div를 저장 
+            }
+            document.body.innerHTML = output;
+
+            var divs =document.querySelectorAll('div'); // 255까지 증가한다. 
+            for (var i =0; i < divs.length; i++) {
+                var div = divs[i];
+
+                div.style.height ='2px';
+                div.style.background ='rgb('+ i + ',' + i + ',' + i +')'
+            }
+
+        };
+
+    </script>
+</head>
+<body>
+
+
+</body>
+</html>

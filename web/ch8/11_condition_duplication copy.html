@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Basic</title>
+    <script>
+        // Date 객체를 선언
+        var date = new Date();
+
+        // 요소 추출
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDay();
+        var hours =date.getHours();
+        var minutes =  date.getMinutes();
+        var seconds = date.getSeconds();
+
+        if ( hours <5) {
+            alert('더 잠을 자렴....');
+            } else {
+                if (hours < 7) {
+                    alert('학원갈준비')
+                } else {
+                    if (hours < 8) {
+                        alert('등원')
+                    } else {
+                        if (hours < 13) {
+                            alert('집중해서 공부')
+                        } else {
+                            if (hours < 14) {
+                                alert('점심')
+                            } else {
+                                if (hours < 18) {
+                                    alert('프로젝트')
+                                }  else {
+                                    if (hours < 18) {
+                                        alert('집으로가자!')
+                                    } 
+                                }
+                           } 
+                        } 
+                    }
+                }
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

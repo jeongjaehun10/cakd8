@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JavaScript Basic</title>
+    <script>
+        // Date 객체를 선언
+        var date = new Date();
+
+        // 요소 추출
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDay();
+        var hours =date.getHours();
+        var minutes =  date.getMinutes();
+        var seconds = date.getSeconds();
+
+        if (month <3 || month == 12) {
+            alert('겨울입니다.');
+            console.log('겨울');
+        }
+        else if (month >=3 && month < 6) {
+            alert('봄입니다.');
+            console.log('봄');
+        }
+        else if (month >6 && month < 9) {
+            alert('여름입니다.');
+            console.log('여름');
+        }
+        else{
+            alert('가을입니다.');
+            console.log('가을');
+        }
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

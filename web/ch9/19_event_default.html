@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- 이벤트 리스너 내부에서 this 키워드를 사용하면 이벤트를 발생한 자기 자신을 의미, 자기자신의 글자를 변경-->
+<!--https://jenny-daru.tistory.com/17-->
+<html lang="en">
+<head>
+    <title>Traditional Event - Default Event</title>
+    <script>
+        window.onload = function () {
+            var button = document.getElementById('button');
+
+            button.onclick = function() {
+                return false;
+            };
+        };
+    </script>
+</head>
+<body>
+    <a id="button" href="http://naver.com">버튼</a>
+
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 중앙 정렬하고 싶은 태그에 width 속성을 부여하고 margin 속성을 0 auto로 입력-->
+<html lang="en">
+<head>
+    <title>One True Layout</title>
+    <style>
+        body {
+            width: 500px;
+            margin: 10px auto;
+        }
+        #middle {
+            overflow: hidden;
+        }
+        #left {
+            float: left;
+            width: 150px;
+            height: 100px;
+            background: red;
+        }
+        #right {
+            float: right;
+            width: 350px;
+            height: 100px;
+            background: blue;
+        }
+        #top {
+            background: green;
+        }
+        #bottom {
+            background: purple;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="top">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis neque explicabo minus laboriosam architecto ipsam ut. Quod deserunt, neque vel, ducimus nam deleniti quibusdam delectus cum, nostrum doloribus quaerat iusto? Quaerat, ducimus cumque quos ea quod aliquam. Vitae natus corrupti nemo
+         sequi expedita obcaecati doloribus, voluptates sit, omnis, reprehenderit animi.</div>
+    <div id="middle" >
+        <div id="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, esse.</div>
+        <div id="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sequi ipsum odio quae, velit cupiditate dolore cum repellendus.
+             Perferendis fugit cum doloremque consectetur, atque ratione iusto natus dolorem perspiciatis, harum non corrupti culpa autem. Minus corporis et, officia dolores ratione veritatis ipsam corrupti amet placeat nemo nobis, magni at vel!</div>
+    </div>
+    <div id="bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nisi blanditiis quas, consequatur facere praesentium? Sint et animi nihil porro eaque quisquam, 
+        distinctio at ab commodi ipsam. Minus, a nam!50</div>
+</body>
+</html>

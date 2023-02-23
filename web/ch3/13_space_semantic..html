@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>semantic</title>
+    <style>
+        *{
+            border-radius: 5px;
+            margin: px; padding: px;
+        }
+        div#page{
+            width: 500px;
+            height: 500px;
+            background-color:beige;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        header#h1{
+            width: 100%;
+            height: 15%;
+            background-color:lightslategrey;
+        }
+
+        nav, section, aside{
+            float: left;
+            height: 70%;
+            box-sizing: border-box;
+            background-color: rgb(102, 91, 102);
+        }
+        nav{
+            width: 20%;
+            background-color:rgb(117, 97, 202);
+        }
+        section{
+            width : 60%;
+            background-color: rgb(33, 80, 83);
+        }
+        aside{
+            width: 20%;
+            background-color: darkgrey;
+        }
+        
+        header#h2{
+            height: 20%;
+            background-color: rgb(59, 43, 24);
+           
+        }
+        article{
+            height: 60%;
+            background-color:rgb(45, 37, 61);
+        }
+        footer#f2{
+            height: 20%;
+            background-color: rgb(68, 63, 13);
+        }
+        
+        footer#f1{
+            width: 100%;
+            height: 15%;
+            background-color: paleturquoise;
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="page">
+        <header id="h1">naver
+            <p>보기</p>, &lt;article&gt; &lt;email&gt;</p>
+        </header>
+        <nav>new
+            <p>중앙일보 , 조선일보</p>
+        </nav>
+        <section>
+            <header id="h2">오늘의 뉴스</header>
+            <article>article
+                <p>2023년 경제 어떻게 될까</p>
+            </article>
+            <footer id="f2">광고주 - 누구</footer>
+        </section>
+        <aside>Aside</aside>
+        <footer id="f1">naver
+            <p>copyright</p>
+        </footer>
+    </div>
+</body>
+</html>
